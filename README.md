@@ -16,7 +16,7 @@ The repository is organized into three phases, reflecting the architectural evol
 | Folder | Architecture | Description |
 | :--- | :--- | :--- |
 | **`Single_Cycle`** | Single-Cycle | Fundamental implementation executing one instruction per clock cycle. Includes PC, Register File, and ALU integration. |
-| **`0Multi_Cycle`** | Multi-Cycle | Refactored design to reuse hardware resources. Integrated a high-performance 8-stage pipelined divider. |
+| **`Multi_Cycle`** | Multi-Cycle | Refactored design to reuse hardware resources. Integrated a high-performance 8-stage pipelined divider. |
 | **`Pipelined`** | 5-Stage Pipeline | The final, most advanced core. Features full pipelining (F-D-E-M-W), hazard detection unit, forwarding unit, and dynamic branch handling. |
 
 ## 🛠️ Technical Implementation Details
